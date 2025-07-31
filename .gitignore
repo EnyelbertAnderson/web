@@ -1,0 +1,77 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Django stuff:
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+*.db
+db.sqlite3
+media/
+local_settings.py
+.env
+.env.*
+
+# Django migrations
+**/migrations/
+**/migrations/*.py
+!**/migrations/__init__.py
+
+# Static files
+staticfiles/
+static/
+dist/
+build/
+
+# VSCode / PyCharm / JetBrains
+.vscode/
+.idea/
+*.iml
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Test coverage reports
+htmlcov/
+.coverage
+.tox/
+.nox/
+.cache
+pytest_cache/
+nosetests.xml
+coverage.xml
+*.cover
+
+# Virtual environment
+venv/
+ENV/
+env/
+.venv/
+.Python
+
+# pipenv / poetry
+Pipfile.lock
+poetry.lock
+
+# mypy
+.mypy_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# System files
+*.swp
+*~
